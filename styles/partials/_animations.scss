@@ -1,0 +1,20 @@
+.fadeOut {
+    transform: translateY(-20px) !important;
+    opacity: 0;
+
+    pointer-events: none;
+}
+
+.fadeIn {
+    transform: translateY(15px) !important;
+    opacity: 1;
+
+    pointer-events: none;
+}
+
+.initial {
+    transform: translateY(20px) !important;
+    opacity: 0;
+
+    pointer-events: none;
+}
